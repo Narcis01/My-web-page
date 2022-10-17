@@ -1,0 +1,69 @@
+*{
+    font-family: 'Bodoni MT';
+    font-style: oblique;
+    color: rgb(0, 30, 34);
+    font-size: 40px;
+}
+.container{    
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(39, 153, 153);
+    font-size: 30px;
+    text-align: center;
+    
+    
+
+}
+.bor{
+    border-color: rgb(92, 126, 153);
+    border-style: groove;}
+#tempC{
+    background-color: rgb(39, 153, 153);
+}
+
+#tempF{
+    background-color: rgb(39, 153, 153);
+}
+
+#location{
+    background-color: rgb(39, 153, 153);
+}
+#wind{
+    background-color: rgb(39, 153, 153);
+
+}
+#viz{
+    background-color: rgb(39, 153, 153);
+}
+
+#icon_city{
+    display: flex;
+    align-items: stretch;
+}
+
+a{
+    text-decoration: none;
+}
+
+#back:hover{
+    cursor: default;
+}
+
+#back{
+    width: auto;
+    border-style: groove;
+    height: auto;
+    border-color: black;
+    border-radius: 30%;
+    border-width: 2px;
+}
+
+.cautare{
+    border-radius: 17%;
+    background-color:rgb(39,153,153);
+    border-color: black;
+}

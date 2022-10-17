@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  
+  
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="style.css">
+
+
+ 
+</head>
+<body>
+  <div id="container">
+    <div id="head"></div>
+    <div id="choose">
+      <button id="rock"> <img src="images/icon-rock.svg" alt=""> </button>
+      <button id="paper"> <img src="images/icon-paper.svg" alt=""> </button>
+      <button id="scrissors"> <img src="images/icon-scissors.svg" alt=""> </button>
+      <img src="images/bg-triangle.svg" id="triangle" alt="">
+    </div>
+    <div id="rules">
+      <div id="rules_title">Rules </div>
+      <button id="close_rules" > <img src="images/icon-close.svg" alt=""> </button>
+      <img src="images/image-rules.svg" alt="" id="rules_img">
+    </div>
+    <div id="rules_active"> <button id="rules_button" >Rules</button> </div>
+    <div id="result">
+      <div id="my_pick"> 
+        <span class="result_text">You picked</span> 
+        <img src=" " alt="" id="player_pick" class="img_final"> 
+      </div>
+      <div id="win_div">
+        <div id="win"></div>
+        <button id="reset" >Reset</button>
+      </div>
+      <div id="enemy_pick"> 
+          <span class="result_text">The computer picked</span>
+          <img src=" " alt="" id="computer_pick" class="img_final"> 
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="script.js"></script> 
+ 
+</body>
+</html>

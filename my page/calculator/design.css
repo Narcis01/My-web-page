@@ -1,0 +1,53 @@
+body{
+    background-color:dimgrey;
+}
+#container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 450px;
+    font-size: 50px;
+    border-style: solid;
+    text-align: center;
+    background-color: rgb(60, 167, 167);
+    margin-left: 35%;
+    
+
+}
+
+.buttons{
+   padding: 25px;
+    border-style: solid;
+}
+.buttons:hover{
+    cursor:default
+}
+.buttons:active{
+    background-color: dimgrey;
+}
+
+#rez{
+    grid-column: 1/span 4;
+}
+#egal{
+    grid-column: 2/span 2;
+}
+
+#back{
+    margin-left: 45%;
+    font-size: 40px;
+    border-style: solid;
+    width: 200px;
+    text-align: center;
+    background-color: rgb(60, 167, 167);
+    text-decoration:none;
+    color: black;
+}
+#back:active{
+    background-color: dimgrey;
+}
+#back:hover{
+    cursor: default;
+}
+a{
+    text-decoration: none;
+}

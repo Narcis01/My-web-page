@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="design.css">
+    </head>
+    <body onload="start()">
+        <div id="container">
+            <div id="header">
+                <h1 id="title">Where in the world?</h1>
+                <button id="dark_mode"><img src="icon-moon.svg" alt=""> Dark mode</button>
+            </div>
+            <div id="separate_country">
+                <button id="back">Back</button>
+                <div id="container_solo">
+                    <img src=" " alt="" id="flag_solo">
+                    <div id="data_solo">
+
+                        <div id="solo_country"></div>
+                        <div id="details">
+                            <div id="native_name" class="space"></div>
+                            <div id="domain" class="space"></div>
+                            <div id="population" class="space"></div>
+                            <div id="currencies" class="space"></div>
+                            <div id="region_solo" class="space"></div>
+                            <div id="languages" class="space"></div>
+                            <div id="sub_region" class="space"></div>
+                            <div id="capital" class="space"></div>
+                        </div>
+                        
+                        
+                        <div id="border"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="search">
+                    
+                    <input type="text" id="input_value" >
+                </div>
+                <select onchange="schedule.call(this,event)" id="select">
+                        <option selected disabled>Filter by region</option>
+                        <option >africa</option>
+                        <option >america</option>                       
+                        <option >asia</option>
+                        <option >europe</option>
+                        <option >oceania</option>
+                </select>
+                    
+                
+                <div id="country"></div>
+            </div>
+
+        </div>
+        
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ 
+  
+  <title>Tip calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div id="title">
+    <h1 >SPLITTER</h1>
+  </div>
+  <div id="container">
+    <div id="bill">
+      Bill
+      <input type="text" id="bill_value" class="input" placeholder="0">
+      Select Tip %
+        <div class="button">
+          <button onclick="price(5)" >5%</button>
+          <button onclick="price(10)">10%</button>
+          <button onclick="price(15)">15%</button>
+          <button onclick="price(25)">25%</button> 
+          <button onclick="price(30)">30%</button>
+          <button onclick="price(50)">50%</button>
+        </div>
+        <div id="people">
+          Number of People
+          <input type="text" id="number_people" class="input" placeholder="0">
+        </div>
+    </div>
+    <div id="amount">
+      <div>  Tip Amount
+        <div> / person</div>
+          <div id="price_person">$0.00</div>
+      </div>
+      <div> 
+        Total 
+        <div> / person</div>
+        <div id="price_total">$0.00</div>
+      </div>
+        <button onclick="restart()" id="reset">Reset</button>
+      </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

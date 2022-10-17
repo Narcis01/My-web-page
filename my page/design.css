@@ -1,0 +1,22 @@
+body{
+    background: cadetblue;
+}
+
+
+#container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.buton{
+    font-size: 40px;
+    border-radius: 15%;
+    background-color: aquamarine;
+}
